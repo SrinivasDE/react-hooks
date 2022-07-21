@@ -11,9 +11,7 @@ import ToDoApp from "./screens/ToDoApp";
 // import NamesParent from './screens/useStateTask/NamesParent';
 
 function App() {
-  const getData = (e) => {
-    console.log("parent data ", e);
-  };
+  
 
   return (
     <div className="App">
@@ -23,7 +21,7 @@ function App() {
       {/* <DataNames/> */}
       {/* <NamesParent/> */}
       {/* <ToDoApp getDataFromChild={getData} /> */}
-      {/* <EmployeeData/> */}
+      <EmployeeData/>
       <Main/>
        
     
