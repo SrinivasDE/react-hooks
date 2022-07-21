@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Main from "./practice1/Main";
+import EmployeeData from "./screens/EmployeeData";
+
+// import Ex1 from './components/Ex1';
+// import MovieList from './components/MovieList';
+// import Prac from './components/Prac';
+// import StateConcept from './components/StateConcept';
+import ToDoApp from "./screens/ToDoApp";
+// import DataNames from './screens/useStateTask/DataNames';
+// import NamesParent from './screens/useStateTask/NamesParent';
 
 function App() {
+  const getData = (e) => {
+    console.log("parent data ", e);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      {/* <StateConcept /> */}
+      {/* <MovieList/> */}
+      {/* <Prac/> */}
+      {/* <DataNames/> */}
+      {/* <NamesParent/> */}
+      {/* <ToDoApp getDataFromChild={getData} /> */}
+      {/* <EmployeeData/> */}
+      <Main/>
+       
+    
+    </div> 
   );
 }
 
