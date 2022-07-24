@@ -1,4 +1,5 @@
 import "./App.css";
+import ContextMain from "./contextAPI/ContextMain/ContextMain";
 import Main from "./practice1/Main";
 import EmployeeData from "./screens/EmployeeData";
 
@@ -25,6 +26,7 @@ function App() {
       {/* <ToDoApp getDataFromChild={getData} /> */}
       {/* <EmployeeData/> */}
       <Main/>
+      <ContextMain />
        
     
     </div> 
